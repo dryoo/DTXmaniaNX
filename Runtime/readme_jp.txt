@@ -3,64 +3,64 @@
   (C) 2000 2010 DTXMania Group
 ============================================================
 
-������ɕK�v�Ȃ���
+■動作に必要なもの
 
 (1) OS ...  WindowsXP / Vista / 7 (x86, x64)
-(2) .NET Framework ... 2.0 �ȍ~
-(3) DirectX �G���h���[�U �����^�C�� ... June 2010 �ȍ~
+(2) .NET Framework ... 2.0 以降
+(3) DirectX エンドユーザ ランタイム ... June 2010 以降
 
-��L����������Ă��Ȃ��ꍇ�A�ȉ��̂悤�ȃG���[�_�C�A���O��
-�\������ADTXMania ���N�����邱�Ƃ��ł��܂���B
+上記が導入されていない場合、以下のようなエラーダイアログが
+表示され、DTXMania を起動することができません。
 
-�u�A�v���P�[�V�����𐳂����������ł��܂���ł����v
-�u****.dll ��������Ȃ��������߁A���̃A�v���P�[�V������
-�@�J�n�ł��܂���ł����v�i�� **** �͔C�ӂ̖��O�j
+「アプリケーションを正しく初期化できませんでした」
+「****.dll が見つからなかったため、このアプリケーションを
+　開始できませんでした」（※ **** は任意の名前）
 
-��DirectX �G���h���[�U�����^�C���̃C���X�g�[��
+■DirectX エンドユーザランタイムのインストール
 
-�O��(3)�� DirectX �G���h���[�U�����^�C���́A�{�A�[�J�C�u��
-"DirectX Redist" �̒��ɁADTXMania �̓���Ɂu�K�v�ŏ����v��
-�\�������Ă���܂��B
+前節(3)の DirectX エンドユーザランタイムは、本アーカイブの
+"DirectX Redist" の中に、DTXMania の動作に「必要最小限」の
+構成を入れてあります。
 
-Microsoft �̃T�C�g���牽�SMB������ǂł����G���h���[�U�����^�C����
-�_�E�����[�h���Ă���̂��ʓ|���Ƃ����l�́A�����ɂ��� DXSETUP.exe ��
-DirectX ���C���X�g�[�����ĉ������B
+Microsoft のサイトから何百MBもあるどでかいエンドユーザランタイムを
+ダウンロードしてくるのが面倒だという人は、ここにある DXSETUP.exe で
+DirectX をインストールして下さい。
 
-��DTXMania �̃C���X�g�[��
+■DTXMania のインストール
 
-DTXMania �̃C���X�g�[���͕s�v�ł��B
-���D���ȏꏊ�ɔz�u���ĉ������B
+DTXMania のインストールは不要です。
+お好きな場所に配置して下さい。
 
-���A���C���X�g�[��
+■アンインストール
 
-DTXMania �̃t�H���_���ƑS���폜���ĉ������B
-���W�X�g�����͂������Ă܂���B
+DTXMania のフォルダごと全部削除して下さい。
+レジストリ等はいじってません。
 
-���ȃf�[�^�̃C���X�g�[��
+■曲データのインストール
 
-�ȃf�[�^�iDTX, GDA�Ȃǁj�͖{�A�[�J�C�u�ɂ͊܂܂�Ă��܂���̂ŁA
-������Ԃł͋Ȃ��P���\������܂���B
-�e���A���낢��Ȏ�i�œ��肵�ĉ������B�i��
+曲データ（DTX, GDAなど）は本アーカイブには含まれていませんので、
+初期状態では曲が１つも表示されません。
+各自、いろいろな手段で入手して下さい。（汗
 
-���肵���ȃf�[�^�́ADTXManiaGR.exe �Ɠ����t�H���_�̒���
-�K���Ȗ��O�i���ł��悢�j�̃t�H���_�����A���̒��ɃR�s�[����
-�������B
+入手した曲データは、DTXManiaGR.exe と同じフォルダの中に
+適当な名前（何でもよい）のフォルダを作り、その中にコピーして
+下さい。
 
-DTXMania �́AConfig.ini�iDTXMania��1��ł��N������Ǝ����I��
-�쐬����܂��j�� DTXPath �Ŏw�肳�ꂽ�t�H���_�����[�g�t�H���_
-�Ƃ��ċȃf�[�^���������܂��B
+DTXMania は、Config.ini（DTXManiaを1回でも起動すると自動的に
+作成されます）の DTXPath で指定されたフォルダをルートフォルダ
+として曲データを検索します。
 
-���[�g�t�H���_����̊K�w�̐[���͖₢�܂���B
-�ǂ��܂ł��[���T���ɍs���܂��B
+ルートフォルダからの階層の深さは問いません。
+どこまでも深く探しに行きます。
 
-�y���Ӂz
-������Ԃł́ADTXPath �ɂ� DTXManiaGR.exe �̑��݂���t�H���_��
-�w�肳��Ă��܂��B
+【注意】
+初期状態では、DTXPath には DTXManiaGR.exe の存在するフォルダが
+指定されています。
 
-DTXMania �́A�Ȃ̉��t���ʂ��A�ȃf�[�^�̑��݂���t�H���_����
-socre.ini �t�@�C���Ƃ��ďo�͂��܂��B���̂��߁A
-�u�ȃf�[�^�̑��݂���t�H���_��"�������݌���"��������΁ADTXMania ��
-�@�G���[�I�����邩�A�܂��͋L�^���c����܂���B�v
+DTXMania は、曲の演奏結果を、曲データの存在するフォルダ内に
+socre.ini ファイルとして出力します。そのため、
+「曲データの存在するフォルダに"書き込み権限"が無ければ、DTXMania が
+　エラー終了するか、または記録が残されません。」
 
-����āAPC �̊Ǘ��҈ȊO�̐l�� DTXMania �ŗV�ԏꍇ�́A�ȃf�[�^�̔z�u
-�ꏊ�ɂ����ӂ��������B
+よって、PC の管理者以外の人が DTXMania で遊ぶ場合は、曲データの配置
+場所にご注意ください。

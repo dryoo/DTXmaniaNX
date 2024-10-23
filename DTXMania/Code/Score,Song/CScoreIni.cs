@@ -594,7 +594,7 @@ namespace DTXMania
 			if( File.Exists( iniファイル名 ) )
 			{
 				string str;
-				StreamReader reader = new StreamReader( iniファイル名, Encoding.GetEncoding( "shift-jis" ) );
+				StreamReader reader = new StreamReader( iniファイル名, Encoding.GetEncoding( "UTF-8" ) );
 				while( ( str = reader.ReadLine() ) != null )
 				{
 					str = str.Replace( '\t', ' ' ).TrimStart( new char[] { '\t', ' ' } );
@@ -1357,7 +1357,7 @@ namespace DTXMania
 			this.iniFileDirectoryName = Path.GetDirectoryName( iniファイル名 );
 			this.iniFilename = Path.GetFileName( iniファイル名 );
 
-			StreamWriter writer = new StreamWriter( iniファイル名, false, Encoding.GetEncoding( "shift-jis" ) );
+			StreamWriter writer = new StreamWriter( iniファイル名, false, Encoding.GetEncoding( "UTF-8" ) );
 			writer.WriteLine( "[File]" );
 			writer.WriteLine( "Title={0}", this.stFile.Title );
 			writer.WriteLine( "Name={0}", this.stFile.Name );
@@ -1999,7 +1999,7 @@ namespace DTXMania
 			builder.Append( cc.strDTXManiaVersion );
 			builder.Append( cc.strDateTime );
 
-			byte[] bytes = Encoding.GetEncoding( "shift-jis" ).GetBytes( builder.ToString() );
+			byte[] bytes = Encoding.GetEncoding( "UTF-8" ).GetBytes( builder.ToString() );
 			StringBuilder builder2 = new StringBuilder(0x21);
 			{
 				MD5CryptoServiceProvider m = new MD5CryptoServiceProvider();

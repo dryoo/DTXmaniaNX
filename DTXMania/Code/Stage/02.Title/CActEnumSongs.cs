@@ -86,11 +86,11 @@ namespace DTXMania
 
             try
             {
-                System.Drawing.Font ftMessage = new System.Drawing.Font("MS PGothic", 60f, FontStyle.Bold, GraphicsUnit.Pixel);
+                System.Drawing.Font ftMessage = new System.Drawing.Font("sans-serif", 60f, FontStyle.Bold, GraphicsUnit.Pixel);
                 string[] strMessage = 
 				{
 					"     曲データの一覧を\n       取得しています。\n   しばらくお待ちください。",
-					" Now enumerating songs.\n         Please wait..."
+					" 이제 Now enumerating songs.\n         Please wait..."
 				};
                 int ci = (CultureInfo.CurrentCulture.TwoLetterISOLanguageName == "ja") ? 0 : 1;
                 if ((strMessage != null) && (strMessage.Length > 0))
@@ -110,6 +110,7 @@ namespace DTXMania
                     this.txMessage.vcScaleRatio = new Vector3(0.5f, 0.5f, 1f);
                     image.Dispose();
                     CDTXMania.t安全にDisposeする(ref ftMessage);
+
                 }
                 else
                 {

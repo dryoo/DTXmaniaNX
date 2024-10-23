@@ -34,7 +34,7 @@ namespace DTXMania
 		{
 			this.n本体X = 0;
 			this.n本体Y = 0x18b;
-			this.ft曲名用フォント = new Font( "MS PGothic", 44f, FontStyle.Regular, GraphicsUnit.Pixel );
+			this.ft曲名用フォント = new Font( "Yu Gothic", 44f, FontStyle.Regular, GraphicsUnit.Pixel );
 			base.OnActivate();
 		}
 		public override void OnDeactivate()

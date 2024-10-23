@@ -61,7 +61,7 @@ namespace DTXMania
             try
             {
                 this.nCurrentMenuNumber = 0;													//
-                this.ftFont = new Font("MS PGothic", 17f, FontStyle.Regular, GraphicsUnit.Pixel);			//
+                this.ftFont = new Font("Yu Gothic", 17f, FontStyle.Regular, GraphicsUnit.Pixel);			//
                 for (int i = 0; i < 4; i++)													//
                 {																				//
                     this.ctKeyRepetition[i] = new CCounter(0, 0, 0, CDTXMania.Timer);			//

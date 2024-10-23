@@ -1359,7 +1359,7 @@ namespace DTXMania
 			this.n表示可能な最小コンボ数.Drums = 10;
 			this.n表示可能な最小コンボ数.Guitar = 2;
 			this.n表示可能な最小コンボ数.Bass = 2;
-			this.str選曲リストフォント = "MS PGothic";
+			this.str選曲リストフォント = "Yu Gothic";
 			this.n選曲リストフォントのサイズdot = 20;
 			this.b選曲リストフォントを太字にする = true;
 			this.n自動再生音量 = 80;
@@ -1485,7 +1485,7 @@ namespace DTXMania
             this.b難易度表示をXG表示にする = true;
             this.bShowScore = true;
             this.bShowMusicInfo = true;
-            this.str曲名表示フォント = "MS PGothic";
+            this.str曲名表示フォント = "Yu Gothic";
             #endregion
 
 			this.bバッファ入力を行う = true;

@@ -269,22 +269,22 @@ namespace DTXMania
 				this.tGenerateClearLampTexture(i, this.stBarInformation[i].nClearLamps);
 			}
 		}
-		public void tMoveToNext()  // t次に移動
-		{
+		public void tMoveToNext()  // t次に移動 다음곡 이동
+        {
 			if( this.rSelectedSong != null )
 			{
 				this.nTargetScrollCounter += 100;
 			}
 		}
-		public void tMoveToPrevious()  // t前に移動
+		public void tMoveToPrevious()  // t前に移動 이전곡
 		{
 			if( this.rSelectedSong != null )
 			{
 				this.nTargetScrollCounter -= 100;
 			}
 		}
-		public void t難易度レベルをひとつ進める()
-		{
+		public void t難易度レベルをひとつ進める() //Advance one difficulty level
+        {
 			if( ( this.rSelectedSong == null ) || ( this.rSelectedSong.nスコア数 <= 1 ) )
 				return;		// 曲にスコアが０～１個しかないなら進める意味なし。
 			
@@ -974,10 +974,10 @@ namespace DTXMania
 				return 0;
 			}
 
-            int i選曲バーX座標 = 673; //選曲バーの座標用
-            int i選択曲バーX座標 = 665; //選択曲バーの座標用
+            int i選曲バーX座標 = 673; //選曲バーの座標用 선곡 막대 좌표용
+            int i選択曲バーX座標 = 665; //選択曲バーの座標用 선곡 막대 X 좌표용
 
-			if( !this.bAllAnimationsCompleted )
+            if ( !this.bAllAnimationsCompleted )
 			{
 				#region [ (1) 登場アニメフェーズの描画。]
 				//-----------------

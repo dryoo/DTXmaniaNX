@@ -198,8 +198,8 @@ namespace DTXMania
 			{
 				this.eReturnValueWhenFadeOutCompleted = EReturnValue.Continue;
 				this.bBGMPlayed = false;
-				this.ftFont = new Font( "MS PGothic", 26f, GraphicsUnit.Pixel );
-				this.ftSearchInputNotificationFont = new Font("MS PGothic", 14f, GraphicsUnit.Pixel);
+				this.ftFont = new Font( "Yu Gothic", 26f, GraphicsUnit.Pixel );
+				this.ftSearchInputNotificationFont = new Font("Yu Gothic", 14f, GraphicsUnit.Pixel);
 				for( int i = 0; i < 4; i++ )
 					this.ctKeyRepeat[ i ] = new CCounter( 0, 0, 0, CDTXMania.Timer );
 
@@ -568,8 +568,8 @@ namespace DTXMania
                             }
                             #endregion
                             #region [ Upstairs ]
-                            if (((this.actSongList.rSelectedSong != null) && (this.actSongList.rSelectedSong.r親ノード != null)) && (CDTXMania.Pad.bPressed(EInstrumentPart.DRUMS, EPad.LC) || CDTXMania.Pad.bPressedGB(EPad.Cancel)))
-                            {
+                            if (((this.actSongList.rSelectedSong != null) && (this.actSongList.rSelectedSong.r親ノード != null)) && ((CDTXMania.Pad.bPressed(EInstrumentPart.DRUMS, EPad.LC) || (CDTXMania.Pad.bPressed(EInstrumentPart.DRUMS, EPad.SD))) || CDTXMania.Pad.bPressedGB(EPad.Cancel)))
+                            {                                 
                                 this.actPresound.tサウンド停止();
                                 CDTXMania.Skin.soundCancel.tPlay();
                                 this.actSongList.tExitBOX();
@@ -592,7 +592,7 @@ namespace DTXMania
                             #endregion
                             #region [ HHx2: 難易度変更 ]
                             if (CDTXMania.Pad.bPressed(EInstrumentPart.DRUMS, EPad.HH) || CDTXMania.Pad.bPressed(EInstrumentPart.DRUMS, EPad.HHO))
-                            {	// [HH]x2 難易度変更
+                            {	// [HH]x2 難易度変更 난이도 변경
                                 CommandHistory.Add(EInstrumentPart.DRUMS, EPadFlag.HH);
                                 EPadFlag[] comChangeDifficulty = new EPadFlag[] { EPadFlag.HH, EPadFlag.HH };
                                 if (CommandHistory.CheckCommand(comChangeDifficulty, EInstrumentPart.DRUMS))
@@ -706,7 +706,7 @@ namespace DTXMania
                             #endregion
                             #region [ FTx2 Drums: ソート画面 ]
                             if (CDTXMania.Pad.bPressed(EInstrumentPart.DRUMS, EPad.FT))
-                            {	// [HT]x2 ソート画面        2013.12.31.kairera0467
+                            {	// [HT]x2 ソート画面  sort screen    2013.12.31.kairera0467
 								//Change to FT x 2 to follow Gitadora style
                                 //
                                 CommandHistory.Add(EInstrumentPart.DRUMS, EPadFlag.FT);

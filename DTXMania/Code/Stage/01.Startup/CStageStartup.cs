@@ -42,7 +42,7 @@ namespace DTXMania
 		}
 		public override void OnDeactivate()
 		{
-			Trace.TraceInformation( "起動ステージを非活性化します。" );
+			Trace.TraceInformation("시작 단계를 비활성화합니다.");
 			Trace.Indent();
 			try
 			{
@@ -51,7 +51,7 @@ namespace DTXMania
 				{
 					if ( ( es.thDTXFileEnumerate != null ) && es.thDTXFileEnumerate.IsAlive )
 					{
-						Trace.TraceWarning( "リスト構築スレッドを強制停止します。" );
+						Trace.TraceWarning("목록 작성 스레드를 강제 중지합니다.");
 						es.thDTXFileEnumerate.Abort();
 						es.thDTXFileEnumerate.Join();
 					}

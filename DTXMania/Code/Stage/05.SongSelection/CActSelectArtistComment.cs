@@ -132,7 +132,7 @@ namespace DTXMania
 
 		public override void OnActivate()
 		{
-			this.ft描画用フォント = new Font( "MS PGothic", 40f, GraphicsUnit.Pixel );
+			this.ft描画用フォント = new Font( "Yu Gothic", 40f, GraphicsUnit.Pixel );
 			this.txArtist = null;
 			this.txComment = null;
 			this.strArtist = "";

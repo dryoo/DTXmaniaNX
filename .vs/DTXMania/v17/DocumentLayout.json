@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\dryoo\\Documents\\GitHub\\DTXmaniaNX\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{81BEC512-8074-4BD1-8A3C-AC73BC7BF846}|DTXMania\\DTXMania.csproj|c:\\users\\dryoo\\documents\\github\\dtxmanianx\\dtxmania\\code\\stage\\09.end\\cstageend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81BEC512-8074-4BD1-8A3C-AC73BC7BF846}|DTXMania\\DTXMania.csproj|solutionrelative:dtxmania\\code\\stage\\09.end\\cstageend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CStageEnd.cs",
+              "DocumentMoniker": "C:\\Users\\dryoo\\Documents\\GitHub\\DTXmaniaNX\\DTXMania\\Code\\Stage\\09.End\\CStageEnd.cs",
+              "RelativeDocumentMoniker": "DTXMania\\Code\\Stage\\09.End\\CStageEnd.cs",
+              "ToolTip": "C:\\Users\\dryoo\\Documents\\GitHub\\DTXmaniaNX\\DTXMania\\Code\\Stage\\09.End\\CStageEnd.cs",
+              "RelativeToolTip": "DTXMania\\Code\\Stage\\09.End\\CStageEnd.cs",
+              "ViewState": "AgIAAEYAAAAAAAAAAADwv1wAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-23T14:12:50.182Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

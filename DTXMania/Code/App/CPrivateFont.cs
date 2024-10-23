@@ -138,13 +138,13 @@ namespace DTXMania
 			// フォントファイルが見つからなかった場合 (MS PGothicを代わりに指定する)
 			{
 				float emSize = pt * 96.0f / 72.0f;
-				this._font = new Font("MS PGothic", emSize, style, GraphicsUnit.Pixel); //MS PGothicのFontオブジェクトを作成する
+				this._font = new Font("Yu Gothic", emSize, style, GraphicsUnit.Pixel); //MS PGothicのFontオブジェクトを作成する
 				FontFamily[] ffs = new System.Drawing.Text.InstalledFontCollection().Families;
 				int lcid = System.Globalization.CultureInfo.GetCultureInfo("en-us").LCID;
 				foreach (FontFamily ff in ffs)
 				{
 					// Trace.WriteLine( lcid ) );
-					if (ff.GetName(lcid) == "MS PGothic")
+					if (ff.GetName(lcid) == "Yu Gothic")
 					{
 						this._fontfamily = ff;
 						Trace.TraceInformation("MS PGothicを代わりに指定しました。");
