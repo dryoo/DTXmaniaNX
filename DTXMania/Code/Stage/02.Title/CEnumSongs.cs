@@ -263,7 +263,7 @@ namespace DTXMania
                                 try
                                 {
                                     cシステムサウンド.tRead();
-                                    Trace.TraceInformation("システムサウンドを読み込みました。({0})", cシステムサウンド.strFilename);
+                                    Trace.TraceInformation("Loaded system sounds ({0})", cシステムサウンド.strFilename);
                                     //if ( ( cシステムサウンド == CDTXMania.Skin.bgm起動画面 ) && cシステムサウンド.b読み込み成功 )
                                     //{
                                     //	cシステムサウンド.tPlay();

@@ -10,17 +10,17 @@ namespace DTXMania
 {
 	internal class CActPerfBGA : CActivity
 	{
-		// コンストラクタ
+        // constructor コンストラクタ
 
-		public CActPerfBGA()
+        public CActPerfBGA()
 		{
 			base.bNotActivated = true;
 		}
-		
-		
-		// メソッド
 
-		public void ChangeScope( EChannel nチャンネル, CDTX.CBMP bmp, CDTX.CBMPTEX bmptex )
+
+        // method メソッド
+
+        public void ChangeScope( EChannel nチャンネル, CDTX.CBMP bmp, CDTX.CBMPTEX bmptex )
 		{
 			for( int i = 0; i < 8; i++ )
 			{

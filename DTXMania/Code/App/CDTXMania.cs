@@ -1781,7 +1781,7 @@ for (int i = 0; i < 3; i++) {
 			}
 			catch ( FileNotFoundException )
 			{
-				Trace.TraceError( "テクスチャファイルが見つかりませんでした。({0})", fileName );
+				Trace.TraceError("Texture file not found ({0})", fileName );
 				return null;
 			}
 		}
@@ -2969,7 +2969,7 @@ for (int i = 0; i < 3; i++) {
                 #endregion
                 #region [ Config.iniの出力 ]
                 //---------------------
-                Trace.TraceInformation("Config.ini を出力します。");
+                Trace.TraceInformation("Output Config.ini");
                 //				if ( ConfigIni.bIsSwappedGuitarBass )			// #24063 2011.1.16 yyagi ギターベースがスワップしているときは元に戻す
                 if (ConfigIni.bIsSwappedGuitarBass_AutoFlagsAreSwapped)	// #24415 2011.2.21 yyagi FLIP中かつ演奏中にalt-f4で終了したときは、AUTOのフラグをswapして戻す
                 {
@@ -2983,19 +2983,19 @@ for (int i = 0; i < 3; i++) {
                     {
                         //TODO
                         //DTXVmode.tUpdateConfigIni();
-                        //Trace.TraceInformation("DTXVモードの設定情報を、Config.xmlに保存しました。");
+                        //Trace.TraceInformation("DTXVモードの設定情報を、Config.xml Saved");
                     }
                     else if (DTX2WAVmode.Enabled)
                     {
                         //TODO
                         //DTX2WAVmode.tUpdateConfigIni();
-                        //Trace.TraceInformation("DTX2WAVモードの設定情報を、Config.xmlに保存しました。");
+                        //Trace.TraceInformation("DTX2WAVモードの設定情報を、Config.xml Saved");
                         DTX2WAVmode.SendMessage2DTX2WAV("TERM");
                     }
                     else
                     {
                         ConfigIni.tWrite(str);
-                        Trace.TraceInformation("保存しました。({0})", new object[] { str });
+                        Trace.TraceInformation("Saved ({0})", new object[] { str });
                     }
                 }
                 catch (Exception e)
@@ -3015,7 +3015,7 @@ for (int i = 0; i < 3; i++) {
                 DiscordRichPresence = null;
                 #endregion
 
-                Trace.TraceInformation("アプリケーションの終了処理を完了しました。");
+                Trace.TraceInformation("Application termination processing completed");
 
 
                 this.b終了処理完了済み = true;

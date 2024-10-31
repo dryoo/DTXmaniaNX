@@ -126,11 +126,11 @@ namespace DTXMania
 					this.sound.tStartPlaying( true );
 					this.str現在のファイル名 = strPreviewFilename;
 					this.tBGMフェードアウト開始();
-					Trace.TraceInformation( "プレビューサウンドを生成しました。({0})", strPreviewFilename );
+					Trace.TraceInformation("Generated preview sound ({0})", strPreviewFilename );
 				}
 				catch
 				{
-					Trace.TraceError( "プレビューサウンドの生成に失敗しました。({0})", strPreviewFilename );
+					Trace.TraceError("Failed to generate preview sound ({0})", strPreviewFilename );
 					if( this.sound != null )
 					{
 						this.sound.Dispose();

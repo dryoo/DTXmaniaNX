@@ -2,128 +2,145 @@
 DTXMania powered by YAMAHA Silent Session Drums
 Release: v1.4.2 20240519
 
-2024/10/24 00:41:55.797 [INFO] ----------------------
-2024/10/24 00:41:55.798 [INFO] ■ アプリケーションの初期化
-2024/10/24 00:41:55.798 [INFO] OS Version: Microsoft Windows NT 10.0.22631.0
-2024/10/24 00:41:55.798 [INFO] ProcessorCount: 12
-2024/10/24 00:41:55.798 [INFO] CLR Version: 4.0.30319.42000
-2024/10/24 00:41:55.799 [INFO] Start in normal mode。
-2024/10/24 00:41:55.996 [INFO] スキンの初期化を行います。
-2024/10/24 00:41:55.997 [INFO]     SkinPath入力: C:\Users\dryoo\Documents\GitHub\DTXmaniaNX\Runtime\System\
-2024/10/24 00:41:55.998 [INFO]     SkinPath設定: C:\Users\dryoo\Documents\GitHub\DTXmaniaNX\Runtime\System\
-2024/10/24 00:41:56.000 [INFO]     スキンの初期化を完了しました。
-2024/10/24 00:41:56.000 [INFO] タイマの初期化を行います。
-2024/10/24 00:41:56.001 [INFO]     タイマの初期化を完了しました。
-2024/10/24 00:41:56.001 [INFO] FPSカウンタの初期化を行います。
-2024/10/24 00:41:56.002 [INFO]     FPSカウンタを生成しました。
-2024/10/24 00:41:56.002 [INFO] 文字コンソールの初期化を行います。
-2024/10/24 00:41:56.002 [INFO]     文字コンソールを生成しました。
-2024/10/24 00:41:56.010 [INFO]     文字コンソールを活性化しました。
-2024/10/24 00:41:56.010 [INFO]     文字コンソールの初期化を完了しました。
-2024/10/24 00:41:56.010 [INFO] DirectInput, MIDI入力の初期化を行います。
-2024/10/24 00:41:56.098 [INFO]     키보드 を生成しました。
-2024/10/24 00:41:56.103 [INFO]     마우스 を生成しました。
-2024/10/24 00:41:56.154 [INFO]     Controller (Xbox One For Windows)を生成しました。
-2024/10/24 00:41:56.183 [INFO]     MIDI入力デバイス数: 0
-2024/10/24 00:41:56.183 [INFO]     DirectInput の初期化を完了しました。
-2024/10/24 00:41:56.183 [INFO] パッドの初期化を行います。
-2024/10/24 00:41:56.183 [INFO]     パッドの初期化を完了しました。
-2024/10/24 00:41:56.183 [INFO] サウンドデバイスの初期化を行います。
-2024/10/24 00:41:56.185 [INFO]     DirectSound の初期化を開始します。
-2024/10/24 00:41:56.224 [INFO]     DirectSound を初期化しました。(Priority)(FDKtimer)
-2024/10/24 00:41:56.226 [INFO]     Bus type of the default sound device = 
-2024/10/24 00:41:56.226 [INFO]     サウンドデバイスの初期化を完了しました。
-2024/10/24 00:41:56.226 [INFO] 曲リストの初期化を行います。
-2024/10/24 00:41:56.227 [INFO]     曲リストの初期化を完了しました。
-2024/10/24 00:41:56.252 [INFO] プラグインの検索と生成を行います。
-2024/10/24 00:41:56.252 [WARNING]     プラグインフォルダが存在しません。(C:\Users\dryoo\Documents\GitHub\DTXmaniaNX\Runtime\Plugins\)
-2024/10/24 00:41:56.252 [INFO]     プラグインの検索と生成を完了しました。
-2024/10/24 00:41:56.252 [INFO] アプリケーションの初期化を完了しました。
-2024/10/24 00:41:56.252 [INFO] ----------------------
-2024/10/24 00:41:56.252 [INFO] ■ Startup
-2024/10/24 00:41:56.253 [INFO] 起動ステージを活性化します。
-2024/10/24 00:41:56.271 [INFO]     起動ステージの活性化を完了しました。
-2024/10/24 00:41:56.302 [INFO] 0) システムサウンドを構築します。
-2024/10/24 00:41:56.315 [INFO]     システムサウンドを読み込みました。(Sounds\Move.ogg)
-2024/10/24 00:41:56.319 [INFO]     システムサウンドを読み込みました。(Sounds\Decide.ogg)
-2024/10/24 00:41:56.322 [INFO]     システムサウンドを読み込みました。(Sounds\Change.ogg)
-2024/10/24 00:41:56.326 [INFO]     システムサウンドを読み込みました。(Sounds\Cancel.ogg)
-2024/10/24 00:41:56.339 [INFO]     システムサウンドを読み込みました。(Sounds\Audience.ogg)
-2024/10/24 00:41:56.353 [INFO]     システムサウンドを読み込みました。(Sounds\Game start.ogg)
-2024/10/24 00:41:56.362 [INFO]     システムサウンドを読み込みました。(Sounds\Full combo.ogg)
-2024/10/24 00:41:56.374 [INFO]     システムサウンドを読み込みました。(Sounds\Excellent.ogg)
-2024/10/24 00:41:56.383 [INFO]     システムサウンドを読み込みました。(Sounds\New Record.ogg)
-2024/10/24 00:41:56.383 [WARNING]     システムサウンドが存在しません。(Sounds\MusicDecide.ogg)
-2024/10/24 00:41:56.383 [WARNING]     システムサウンドが存在しません。(Sounds\Novice.ogg)
-2024/10/24 00:41:56.383 [WARNING]     システムサウンドが存在しません。(Sounds\Regular.ogg)
-2024/10/24 00:41:56.383 [WARNING]     システムサウンドが存在しません。(Sounds\Expert.ogg)
-2024/10/24 00:41:56.393 [INFO]     システムサウンドを読み込みました。(Sounds\Master.ogg)
-2024/10/24 00:41:56.393 [WARNING]     システムサウンドが存在しません。(Sounds\SelectMusic.ogg)
-2024/10/24 00:41:56.402 [INFO]     システムサウンドを読み込みました。(Sounds\Basic.ogg)
-2024/10/24 00:41:56.413 [INFO]     システムサウンドを読み込みました。(Sounds\Advanced.ogg)
-2024/10/24 00:41:56.423 [INFO]     システムサウンドを読み込みました。(Sounds\Extreme.ogg)
-2024/10/24 00:41:56.423 [INFO] 1) Loading songlist.db ...
-2024/10/24 00:41:56.573 [INFO]     Loading songlist.db complete. [831 scores]
-2024/10/24 00:41:56.573 [INFO] Duration of Loading songlist.db: 00:00:00.1500150
-2024/10/24 00:41:56.573 [INFO] 2) Loading songs.db ...
-2024/10/24 00:41:56.582 [INFO]     Loading songs.db complete. [831 scores]
-2024/10/24 00:41:56.582 [INFO] Duration of Loading songs.db: 00:00:00.0085004
-2024/10/24 00:41:56.582 [INFO] Initialization Time: 00:00:00.2798669
-2024/10/24 00:41:56.596 [INFO] 시작 단계를 비활성화합니다.
-2024/10/24 00:41:56.597 [INFO]     起動ステージの非活性化を完了しました。
-2024/10/24 00:41:56.597 [INFO] ----------------------
-2024/10/24 00:41:56.597 [INFO] ■ Title
-2024/10/24 00:41:56.597 [INFO] タイトルステージを活性化します。
-2024/10/24 00:41:56.618 [INFO]     タイトルステージの活性化を完了しました。
-2024/10/24 00:41:56.640 [INFO] ★曲データ検索スレッドを起動しました。
-2024/10/24 00:41:56.644 [INFO] Read cache option: False
-2024/10/24 00:41:56.644 [INFO] enum2) Searching Song Data ...
-2024/10/24 00:41:56.644 [INFO]     Search Path: \\box\\dtx\dtxnx
-2024/10/24 00:41:59.854 [INFO]     Song Data search complete. [376 songs 831 scores]
-2024/10/24 00:41:59.854 [INFO] Duration of enum2) Searching Song Data : 00:00:03.2098636
-2024/10/24 00:41:59.854 [INFO] enum3) Loading score cache into songs.db. 
-2024/10/24 00:41:59.860 [INFO]     Score cache loading complete. [831/831スコア]
-2024/10/24 00:41:59.860 [INFO] Duration of enum3) Loading score cache into songs.db. : 00:00:00.0060024
-2024/10/24 00:41:59.860 [INFO] 831, 831
-2024/10/24 00:41:59.860 [INFO] enum4) Reads and copy song data information from files [0 scores] that were not in songs.db. 
-2024/10/24 00:41:59.863 [INFO]     Copying into song data complete. [0/0 scores]
-2024/10/24 00:41:59.863 [INFO] Duration of enum4) Reads and copy song data: 00:00:00.0035027
-2024/10/24 00:41:59.863 [INFO] enum5) Apply post-processing to song list.
-2024/10/24 00:41:59.866 [INFO]     Post-processing to song list completed.
-2024/10/24 00:41:59.866 [INFO] Duration of enum5) Apply post-processing to song list: 00:00:00.0030019
-2024/10/24 00:41:59.867 [INFO] enum6) Saving song metadata into songs.db.
-2024/10/24 00:41:59.870 [INFO]     Saving into songs.db complete.[831 scores]
-2024/10/24 00:41:59.870 [INFO] Duration of enum6) Saving song metadata into songs.db: 00:00:00.0029614
-2024/10/24 00:41:59.870 [INFO] enum7) Saving additional song data into songlist.db.
-2024/10/24 00:41:59.941 [INFO]     Saving into songlist.db complete. [831 scores]
-2024/10/24 00:41:59.941 [INFO] Duration of enum7) Saving additional song data into songlist.db: 00:00:00.0705820
-2024/10/24 00:41:59.941 [INFO] Duration of full Song Enumerating: 00:00:03.2969523
-2024/10/24 00:42:05.987 [INFO] ----------------------
-2024/10/24 00:42:05.987 [INFO] ■ アプリケーションの終了
-2024/10/24 00:42:05.987 [INFO] 曲検索actの終了処理を行います。
-2024/10/24 00:42:05.987 [INFO]     曲検索actの終了処理を完了しました。
-2024/10/24 00:42:05.987 [INFO] 現在のステージを終了します。
-2024/10/24 00:42:05.987 [INFO]     タイトルステージを非活性化します。
-2024/10/24 00:42:05.987 [INFO]         タイトルステージの非活性化を完了しました。
-2024/10/24 00:42:05.987 [INFO]     現在のステージの終了処理を完了しました。
-2024/10/24 00:42:05.988 [INFO] 曲リストの終了処理を行います。
-2024/10/24 00:42:05.988 [INFO]     曲リストの終了処理を完了しました。
-2024/10/24 00:42:05.988 [INFO] スキンの終了処理を行います。
-2024/10/24 00:42:05.991 [INFO]     スキンの終了処理を完了しました。
-2024/10/24 00:42:05.991 [INFO] DirectSound の終了処理を行います。
-2024/10/24 00:42:06.000 [INFO]     DirectSound の終了処理を完了しました。
-2024/10/24 00:42:06.000 [INFO] パッドの終了処理を行います。
-2024/10/24 00:42:06.000 [INFO]     パッドの終了処理を完了しました。
-2024/10/24 00:42:06.000 [INFO] DirectInput, MIDI入力の終了処理を行います。
-2024/10/24 00:42:06.000 [INFO]     DirectInput, MIDI入力の終了処理を完了しました。
-2024/10/24 00:42:06.000 [INFO] 文字コンソールの終了処理を行います。
-2024/10/24 00:42:06.000 [INFO]     文字コンソールの終了処理を完了しました。
-2024/10/24 00:42:06.000 [INFO] FPSカウンタの終了処理を行います。
-2024/10/24 00:42:06.000 [INFO]     FPSカウンタの終了処理を完了しました。
-2024/10/24 00:42:06.000 [INFO] タイマの終了処理を行います。
-2024/10/24 00:42:06.002 [INFO]     タイマの終了処理を完了しました。
-2024/10/24 00:42:06.002 [INFO] Config.ini を出力します。
-2024/10/24 00:42:06.016 [INFO]     保存しました。(C:\Users\dryoo\Documents\GitHub\DTXmaniaNX\Runtime\Config.ini)
-2024/10/24 00:42:06.016 [INFO] アプリケーションの終了処理を完了しました。
+2024/10/26 19:13:12.490 [INFO] ----------------------
+2024/10/26 19:13:12.491 [INFO] ■ アプリケーションの初期化
+2024/10/26 19:13:12.492 [INFO] OS Version: Microsoft Windows NT 10.0.22631.0
+2024/10/26 19:13:12.492 [INFO] ProcessorCount: 12
+2024/10/26 19:13:12.492 [INFO] CLR Version: 4.0.30319.42000
+2024/10/26 19:13:12.493 [INFO] Start in normal mode。
+2024/10/26 19:13:12.702 [INFO] スキンの初期化を行います。
+2024/10/26 19:13:12.704 [INFO]     SkinPath入力: C:\Users\dryoo\Documents\GitHub\DTXmaniaNX\Runtime\System\
+2024/10/26 19:13:12.706 [INFO]     SkinPath設定: C:\Users\dryoo\Documents\GitHub\DTXmaniaNX\Runtime\System\
+2024/10/26 19:13:12.711 [INFO]     スキンの初期化を完了しました。
+2024/10/26 19:13:12.712 [INFO] タイマの初期化を行います。
+2024/10/26 19:13:12.714 [INFO]     タイマの初期化を完了しました。
+2024/10/26 19:13:12.714 [INFO] FPSカウンタの初期化を行います。
+2024/10/26 19:13:12.715 [INFO]     FPSカウンタを生成しました。
+2024/10/26 19:13:12.716 [INFO] 文字コンソールの初期化を行います。
+2024/10/26 19:13:12.717 [INFO]     文字コンソールを生成しました。
+2024/10/26 19:13:12.726 [INFO]     文字コンソールを活性化しました。
+2024/10/26 19:13:12.727 [INFO]     文字コンソールの初期化を完了しました。
+2024/10/26 19:13:12.727 [INFO] DirectInput, MIDI入力の初期化を行います。
+2024/10/26 19:13:12.826 [INFO]     키보드 を生成しました。
+2024/10/26 19:13:12.835 [INFO]     마우스 を生成しました。
+2024/10/26 19:13:12.905 [INFO]     Controller (Xbox One For Windows)を生成しました。
+2024/10/26 19:13:12.947 [INFO]     MIDI入力デバイス数: 0
+2024/10/26 19:13:12.948 [INFO]     DirectInput の初期化を完了しました。
+2024/10/26 19:13:12.948 [INFO] パッドの初期化を行います。
+2024/10/26 19:13:12.949 [INFO]     パッドの初期化を完了しました。
+2024/10/26 19:13:12.949 [INFO] サウンドデバイスの初期化を行います。
+2024/10/26 19:13:12.953 [INFO]     DirectSound の初期化を開始します。
+2024/10/26 19:13:13.027 [INFO]     DirectSound を初期化しました。(Priority)(FDKtimer)
+2024/10/26 19:13:13.029 [INFO]     Bus type of the default sound device = 
+2024/10/26 19:13:13.030 [INFO]     サウンドデバイスの初期化を完了しました。
+2024/10/26 19:13:13.030 [INFO] 曲リストの初期化を行います。
+2024/10/26 19:13:13.031 [INFO]     曲リストの初期化を完了しました。
+2024/10/26 19:13:13.062 [INFO] プラグインの検索と生成を行います。
+2024/10/26 19:13:13.064 [WARNING]     プラグインフォルダが存在しません。(C:\Users\dryoo\Documents\GitHub\DTXmaniaNX\Runtime\Plugins\)
+2024/10/26 19:13:13.064 [INFO]     プラグインの検索と生成を完了しました。
+2024/10/26 19:13:13.064 [INFO] アプリケーションの初期化を完了しました。
+2024/10/26 19:13:13.065 [INFO] ----------------------
+2024/10/26 19:13:13.065 [INFO] ■ Startup
+2024/10/26 19:13:13.065 [INFO] 起動ステージを活性化します。
+2024/10/26 19:13:13.086 [INFO]     起動ステージの活性化を完了しました。
+2024/10/26 19:13:13.124 [INFO] 0) システムサウンドを構築します。
+2024/10/26 19:13:13.144 [INFO]     Loaded system sounds (Sounds\Move.ogg)
+2024/10/26 19:13:13.150 [INFO]     Loaded system sounds (Sounds\Decide.ogg)
+2024/10/26 19:13:13.158 [INFO]     Loaded system sounds (Sounds\Change.ogg)
+2024/10/26 19:13:13.166 [INFO]     Loaded system sounds (Sounds\Cancel.ogg)
+2024/10/26 19:13:13.185 [INFO]     Loaded system sounds (Sounds\Audience.ogg)
+2024/10/26 19:13:13.202 [INFO]     Loaded system sounds (Sounds\Game start.ogg)
+2024/10/26 19:13:13.217 [INFO]     Loaded system sounds (Sounds\Full combo.ogg)
+2024/10/26 19:13:13.233 [INFO]     Loaded system sounds (Sounds\Excellent.ogg)
+2024/10/26 19:13:13.247 [INFO]     Loaded system sounds (Sounds\New Record.ogg)
+2024/10/26 19:13:13.251 [WARNING]     システムサウンドが存在しません。(Sounds\MusicDecide.ogg)
+2024/10/26 19:13:13.254 [WARNING]     システムサウンドが存在しません。(Sounds\Novice.ogg)
+2024/10/26 19:13:13.259 [WARNING]     システムサウンドが存在しません。(Sounds\Regular.ogg)
+2024/10/26 19:13:13.262 [WARNING]     システムサウンドが存在しません。(Sounds\Expert.ogg)
+2024/10/26 19:13:13.274 [INFO]     Loaded system sounds (Sounds\Master.ogg)
+2024/10/26 19:13:13.277 [WARNING]     システムサウンドが存在しません。(Sounds\SelectMusic.ogg)
+2024/10/26 19:13:13.289 [INFO]     Loaded system sounds (Sounds\Basic.ogg)
+2024/10/26 19:13:13.302 [INFO]     Loaded system sounds (Sounds\Advanced.ogg)
+2024/10/26 19:13:13.315 [INFO]     Loaded system sounds (Sounds\Extreme.ogg)
+2024/10/26 19:13:13.315 [INFO] 1) Loading songlist.db ...
+2024/10/26 19:13:13.528 [INFO]     Loading songlist.db complete. [920 scores]
+2024/10/26 19:13:13.528 [INFO] Duration of Loading songlist.db: 00:00:00.2132597
+2024/10/26 19:13:13.529 [INFO] 2) Loading songs.db ...
+2024/10/26 19:13:13.546 [INFO]     Loading songs.db complete. [920 scores]
+2024/10/26 19:13:13.547 [INFO] Duration of Loading songs.db: 00:00:00.0180072
+2024/10/26 19:13:13.547 [INFO] Initialization Time: 00:00:00.4231510
+2024/10/26 19:13:13.556 [INFO] 시작 단계를 비활성화합니다.
+2024/10/26 19:13:13.557 [INFO]     起動ステージの非活性化を完了しました。
+2024/10/26 19:13:13.558 [INFO] ----------------------
+2024/10/26 19:13:13.558 [INFO] ■ Title
+2024/10/26 19:13:13.559 [INFO] タイトルステージを活性化します。
+2024/10/26 19:13:13.581 [INFO]     タイトルステージの活性化を完了しました。
+2024/10/26 19:13:13.608 [INFO] ★曲データ検索スレッドを起動しました。
+2024/10/26 19:13:13.632 [INFO] Read cache option: False
+2024/10/26 19:13:13.633 [INFO] enum2) Searching Song Data ...
+2024/10/26 19:13:13.633 [INFO]     Search Path: \\box\\dtx\dtxnx
+2024/10/26 19:13:17.258 [INFO]     Song Data search complete. [368 songs 920 scores]
+2024/10/26 19:13:17.258 [INFO] Duration of enum2) Searching Song Data : 00:00:03.6261789
+2024/10/26 19:13:17.259 [INFO] enum3) Loading score cache into songs.db. 
+2024/10/26 19:13:17.266 [INFO]     Score cache loading complete. [920/920スコア]
+2024/10/26 19:13:17.266 [INFO] Duration of enum3) Loading score cache into songs.db. : 00:00:00.0074432
+2024/10/26 19:13:17.266 [INFO] 920, 920
+2024/10/26 19:13:17.267 [INFO] enum4) Reads and copy song data information from files [0 scores] that were not in songs.db. 
+2024/10/26 19:13:17.320 [INFO]     Copying into song data complete. [0/0 scores]
+2024/10/26 19:13:17.320 [INFO] Duration of enum4) Reads and copy song data: 00:00:00.0535169
+2024/10/26 19:13:17.321 [INFO] enum5) Apply post-processing to song list.
+2024/10/26 19:13:17.324 [INFO]     Post-processing to song list completed.
+2024/10/26 19:13:17.325 [INFO] Duration of enum5) Apply post-processing to song list: 00:00:00.0045024
+2024/10/26 19:13:17.326 [INFO] enum6) Saving song metadata into songs.db.
+2024/10/26 19:13:17.331 [INFO]     Saving into songs.db complete.[920 scores]
+2024/10/26 19:13:17.332 [INFO] Duration of enum6) Saving song metadata into songs.db: 00:00:00.0060002
+2024/10/26 19:13:17.332 [INFO] enum7) Saving additional song data into songlist.db.
+2024/10/26 19:13:17.403 [INFO]     Saving into songlist.db complete. [920 scores]
+2024/10/26 19:13:17.404 [INFO] Duration of enum7) Saving additional song data into songlist.db: 00:00:00.0705391
+2024/10/26 19:13:17.404 [INFO] Duration of full Song Enumerating: 00:00:03.7726866
+2024/10/26 19:13:18.358 [INFO] タイトルステージを非活性化します。
+2024/10/26 19:13:18.359 [INFO]     タイトルステージの非活性化を完了しました。
+2024/10/26 19:13:18.360 [INFO] ----------------------
+2024/10/26 19:13:18.360 [INFO] ■ SongSelection
+2024/10/26 19:13:18.361 [INFO] Activate the music selection stage
+2024/10/26 19:13:18.385 [WARNING]     File does not exist. ()(C:\Users\dryoo\Documents\GitHub\DTXmaniaNX\Runtime\System\Graphics\5_background.mp4)
+2024/10/26 19:13:18.668 [ERROR]     Texture file not found (C:\Users\dryoo\Documents\GitHub\DTXmaniaNX\Runtime\System\Graphics\5_informatione.png)
+2024/10/26 19:13:18.704 [ERROR]     DrawPrivateFont()の入力不正。最小値のbitmapを返します。
+2024/10/26 19:13:18.707 [INFO]     Completed activation of song selection stage
+2024/10/26 19:13:24.428 [INFO] 選曲ステージを非活性化します。
+2024/10/26 19:13:24.429 [INFO]     CActSelectBackgroundAVI: Stop()
+2024/10/26 19:13:24.433 [INFO]     
+Completed deactivation of music selection stage
+2024/10/26 19:13:24.434 [INFO] ----------------------
+2024/10/26 19:13:24.434 [INFO] ■ Title
+2024/10/26 19:13:24.435 [INFO] タイトルステージを活性化します。
+2024/10/26 19:13:24.455 [INFO]     タイトルステージの活性化を完了しました。
+2024/10/26 19:13:28.732 [INFO] ----------------------
+2024/10/26 19:13:28.732 [INFO] ■ アプリケーションの終了
+2024/10/26 19:13:28.733 [INFO] 曲検索actの終了処理を行います。
+2024/10/26 19:13:28.735 [INFO]     曲検索actの終了処理を完了しました。
+2024/10/26 19:13:28.736 [INFO] 現在のステージを終了します。
+2024/10/26 19:13:28.737 [INFO]     タイトルステージを非活性化します。
+2024/10/26 19:13:28.739 [INFO]         タイトルステージの非活性化を完了しました。
+2024/10/26 19:13:28.742 [INFO]     現在のステージの終了処理を完了しました。
+2024/10/26 19:13:28.743 [INFO] 曲リストの終了処理を行います。
+2024/10/26 19:13:28.743 [INFO]     曲リストの終了処理を完了しました。
+2024/10/26 19:13:28.744 [INFO] スキンの終了処理を行います。
+2024/10/26 19:13:28.749 [INFO]     スキンの終了処理を完了しました。
+2024/10/26 19:13:28.749 [INFO] DirectSound の終了処理を行います。
+2024/10/26 19:13:28.759 [INFO]     DirectSound の終了処理を完了しました。
+2024/10/26 19:13:28.760 [INFO] パッドの終了処理を行います。
+2024/10/26 19:13:28.761 [INFO]     パッドの終了処理を完了しました。
+2024/10/26 19:13:28.762 [INFO] DirectInput, MIDI入力の終了処理を行います。
+2024/10/26 19:13:28.764 [INFO]     DirectInput, MIDI入力の終了処理を完了しました。
+2024/10/26 19:13:28.764 [INFO] 文字コンソールの終了処理を行います。
+2024/10/26 19:13:28.765 [INFO]     文字コンソールの終了処理を完了しました。
+2024/10/26 19:13:28.766 [INFO] FPSカウンタの終了処理を行います。
+2024/10/26 19:13:28.767 [INFO]     FPSカウンタの終了処理を完了しました。
+2024/10/26 19:13:28.768 [INFO] タイマの終了処理を行います。
+2024/10/26 19:13:28.768 [INFO]     タイマの終了処理を完了しました。
+2024/10/26 19:13:28.769 [INFO] Output Config.ini
+2024/10/26 19:13:28.784 [INFO]     Saved (C:\Users\dryoo\Documents\GitHub\DTXmaniaNX\Runtime\Config.ini)
+2024/10/26 19:13:28.785 [INFO] Application termination processing completed
 
 遊んでくれてありがとう！

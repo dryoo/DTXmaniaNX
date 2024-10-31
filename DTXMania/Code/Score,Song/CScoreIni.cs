@@ -904,7 +904,7 @@ namespace DTXMania
 												continue;
 											}
 									}
-									throw new Exception( "RandomGuitar の値が無効です。" );
+									throw new Exception("RandomGuitar value is invalid.");
 								}
 								#endregion
 								#region [ RandomBass ]

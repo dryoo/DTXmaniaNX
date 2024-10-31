@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\dryoo\\Documents\\GitHub\\DTXmaniaNX\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{81BEC512-8074-4BD1-8A3C-AC73BC7BF846}|DTXMania\\DTXMania.csproj|c:\\users\\dryoo\\documents\\github\\dtxmanianx\\dtxmania\\code\\stage\\09.end\\cstageend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{81BEC512-8074-4BD1-8A3C-AC73BC7BF846}|DTXMania\\DTXMania.csproj|solutionrelative:dtxmania\\code\\stage\\09.end\\cstageend.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{81BEC512-8074-4BD1-8A3C-AC73BC7BF846}|DTXMania\\DTXMania.csproj|c:\\users\\dryoo\\documents\\github\\dtxmanianx\\dtxmania\\code\\app\\cdtxmania.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81BEC512-8074-4BD1-8A3C-AC73BC7BF846}|DTXMania\\DTXMania.csproj|solutionrelative:dtxmania\\code\\app\\cdtxmania.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81BEC512-8074-4BD1-8A3C-AC73BC7BF846}|DTXMania\\DTXMania.csproj|c:\\users\\dryoo\\documents\\github\\dtxmanianx\\dtxmania\\code\\stage\\05.songselection\\cstagesongselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81BEC512-8074-4BD1-8A3C-AC73BC7BF846}|DTXMania\\DTXMania.csproj|solutionrelative:dtxmania\\code\\stage\\05.songselection\\cstagesongselection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81BEC512-8074-4BD1-8A3C-AC73BC7BF846}|DTXMania\\DTXMania.csproj|c:\\users\\dryoo\\documents\\github\\dtxmanianx\\dtxmania\\code\\stage\\05.songselection\\cactselectpresound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81BEC512-8074-4BD1-8A3C-AC73BC7BF846}|DTXMania\\DTXMania.csproj|solutionrelative:dtxmania\\code\\stage\\05.songselection\\cactselectpresound.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{81BEC512-8074-4BD1-8A3C-AC73BC7BF846}|DTXMania\\DTXMania.csproj|c:\\users\\dryoo\\documents\\github\\dtxmanianx\\dtxmania\\code\\stage\\05.songselection\\cactselectinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{81BEC512-8074-4BD1-8A3C-AC73BC7BF846}|DTXMania\\DTXMania.csproj|solutionrelative:dtxmania\\code\\stage\\05.songselection\\cactselectinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CStageEnd.cs",
-              "DocumentMoniker": "C:\\Users\\dryoo\\Documents\\GitHub\\DTXmaniaNX\\DTXMania\\Code\\Stage\\09.End\\CStageEnd.cs",
-              "RelativeDocumentMoniker": "DTXMania\\Code\\Stage\\09.End\\CStageEnd.cs",
-              "ToolTip": "C:\\Users\\dryoo\\Documents\\GitHub\\DTXmaniaNX\\DTXMania\\Code\\Stage\\09.End\\CStageEnd.cs",
-              "RelativeToolTip": "DTXMania\\Code\\Stage\\09.End\\CStageEnd.cs",
-              "ViewState": "AgIAAEYAAAAAAAAAAADwv1wAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "CStageSongSelection.cs",
+              "DocumentMoniker": "C:\\Users\\dryoo\\Documents\\GitHub\\DTXmaniaNX\\DTXMania\\Code\\Stage\\05.SongSelection\\CStageSongSelection.cs",
+              "RelativeDocumentMoniker": "DTXMania\\Code\\Stage\\05.SongSelection\\CStageSongSelection.cs",
+              "ToolTip": "C:\\Users\\dryoo\\Documents\\GitHub\\DTXmaniaNX\\DTXMania\\Code\\Stage\\05.SongSelection\\CStageSongSelection.cs",
+              "RelativeToolTip": "DTXMania\\Code\\Stage\\05.SongSelection\\CStageSongSelection.cs",
+              "ViewState": "AgIAAPkAAAAAAAAAAAAAABABAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-23T14:12:50.182Z",
+              "WhenOpened": "2024-10-26T10:11:00.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CActSelectPresound.cs",
+              "DocumentMoniker": "C:\\Users\\dryoo\\Documents\\GitHub\\DTXmaniaNX\\DTXMania\\Code\\Stage\\05.SongSelection\\CActSelectPresound.cs",
+              "RelativeDocumentMoniker": "DTXMania\\Code\\Stage\\05.SongSelection\\CActSelectPresound.cs",
+              "ToolTip": "C:\\Users\\dryoo\\Documents\\GitHub\\DTXmaniaNX\\DTXMania\\Code\\Stage\\05.SongSelection\\CActSelectPresound.cs",
+              "RelativeToolTip": "DTXMania\\Code\\Stage\\05.SongSelection\\CActSelectPresound.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAAAJkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T10:10:20.542Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CActSelectInformation.cs",
+              "DocumentMoniker": "C:\\Users\\dryoo\\Documents\\GitHub\\DTXmaniaNX\\DTXMania\\Code\\Stage\\05.SongSelection\\CActSelectInformation.cs",
+              "RelativeDocumentMoniker": "DTXMania\\Code\\Stage\\05.SongSelection\\CActSelectInformation.cs",
+              "ToolTip": "C:\\Users\\dryoo\\Documents\\GitHub\\DTXmaniaNX\\DTXMania\\Code\\Stage\\05.SongSelection\\CActSelectInformation.cs",
+              "RelativeToolTip": "DTXMania\\Code\\Stage\\05.SongSelection\\CActSelectInformation.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAADkAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T10:09:16.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CDTXMania.cs",
+              "DocumentMoniker": "C:\\Users\\dryoo\\Documents\\GitHub\\DTXmaniaNX\\DTXMania\\Code\\App\\CDTXMania.cs",
+              "RelativeDocumentMoniker": "DTXMania\\Code\\App\\CDTXMania.cs",
+              "ToolTip": "C:\\Users\\dryoo\\Documents\\GitHub\\DTXmaniaNX\\DTXMania\\Code\\App\\CDTXMania.cs",
+              "RelativeToolTip": "DTXMania\\Code\\App\\CDTXMania.cs",
+              "ViewState": "AgIAAJQKAAAAAAAAAAAnwLULAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-26T10:08:52.071Z",
               "EditorCaption": ""
             }
           ]

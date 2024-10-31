@@ -192,7 +192,7 @@ namespace DTXMania
 
 		public override void OnActivate()
 		{
-			Trace.TraceInformation( "選曲ステージを活性化します。" );
+			Trace.TraceInformation("Activate the music selection stage");
 			Trace.Indent();
 			try
 			{
@@ -229,7 +229,7 @@ namespace DTXMania
 			}
 			finally
 			{
-				Trace.TraceInformation( "選曲ステージの活性化を完了しました。" );
+				Trace.TraceInformation("Completed activation of song selection stage");
 				Trace.Unindent();
 			}
 		}
@@ -265,7 +265,7 @@ namespace DTXMania
 			}
 			finally
 			{
-				Trace.TraceInformation( "選曲ステージの非活性化を完了しました。" );
+				Trace.TraceInformation("\r\nCompleted deactivation of music selection stage");
 				Trace.Unindent();
 			}
 		}

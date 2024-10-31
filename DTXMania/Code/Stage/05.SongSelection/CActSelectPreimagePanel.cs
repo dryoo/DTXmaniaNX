@@ -300,11 +300,11 @@ namespace DTXMania
 					this.n前回描画したフレーム番号 = -1;
 					this.b動画フレームを作成した = false;
 					this.tサーフェイスをクリアする( this.sfAVI画像 );
-					Trace.TraceInformation( "動画を生成しました。({0})", new object[] { filename } );
+					Trace.TraceInformation("I've generated a video. ({0})", new object[] { filename } );
 				}
 				catch
 				{
-					Trace.TraceError( "動画の生成に失敗しました。({0})", new object[] { filename } );
+					Trace.TraceError("Failed to generate video ({0})", new object[] { filename } );
 					this.rAVI = null;
 					this.nAVI再生開始時刻 = -1;
 				}
